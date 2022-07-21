@@ -31,14 +31,14 @@ def explain_playing_field():
 def show_playing_field():
     print_waiting_text("The field looks now like this:")
     
-    print(f"""
+    print_waiting_text(f"""
     {field_display[0]} | {field_display[1]} | {field_display[2]}
     ---------
     {field_display[3]} | {field_display[4]} | {field_display[5]}
     ---------
     {field_display[6]} | {field_display[7]} | {field_display[8]}
-    """)
-    time.sleep(3)
+    """,
+    3) # 3 Seconds waiting time, otherwise it is too quick
 
 # Print text with one free line before and after
 def print_text(text, before=1, after=1):
