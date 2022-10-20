@@ -18,7 +18,7 @@ import time     # To allow to have pauses after printed text and computer's choi
 # ------------------------------------------------------------
 
 def explain_playing_field():
-    print(f"""
+    print("""
     1 | 2 | 3
     ---------
     4 | 5 | 6
@@ -66,8 +66,10 @@ def get_int():
 
     # Player can leave the game
     if choice == "q":
-        print_waiting_text("You want to leave the game?\n\nOK. Goodbye! :)")
+        print_waiting_text("You want to leave the game?")
+        print_waiting_text("OK. Goodbye! :)")
         quit()
+        
 
     # If possible, input becomes an int
     try:
