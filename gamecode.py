@@ -1,10 +1,5 @@
 
 
-""" A simple Tic-Tac-Toe game: Player vs computer.
-The computer makes choices randomly based on the left over choices ."""
-
-
-
 # IMPORTED MODULES
 # ------------------------------------------------------------
 
