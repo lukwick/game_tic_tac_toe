@@ -12,4 +12,3 @@
 
 - Apply my basic Python coding skills
 - Having fun in a little project :)
-- 
